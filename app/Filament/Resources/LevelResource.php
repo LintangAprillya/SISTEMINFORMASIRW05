@@ -44,8 +44,8 @@ class LevelResource extends Resource
                             'Bendahara RW'=>'Bendahara RW',
                             'Warga'=>'Warga'
                         ])
-                    ])
-                    ->columns(2),
+                        ]),
+                    
             ]);
     }
 
