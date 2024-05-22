@@ -9,15 +9,15 @@ use Filament\Resources\Form;
 use Filament\Resources\Table;
 use Filament\Resources\Resource;
 use Filament\Forms\Components\Card;
+use function Laravel\Prompts\select;
+use Filament\Forms\Components\Select;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Forms\Components\TextInput;
 use Illuminate\Database\Eloquent\Builder;
 use App\Filament\Resources\LevelResource\Pages;
+
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use App\Filament\Resources\LevelResource\RelationManagers;
-use Filament\Forms\Components\Select;
-use Filament\Tables\Columns\TextColumn;
-
-use function Laravel\Prompts\select;
 
 class LevelResource extends Resource
 {
